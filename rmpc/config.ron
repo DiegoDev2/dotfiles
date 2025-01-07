@@ -1,0 +1,22 @@
+(
+    // Configuración de la conexión MPD
+    mpd: (
+        host: "localhost",
+        port: 6600,
+        password: "12345678",
+    ),
+    
+    // Configuración de la interfaz
+    client: (
+        theme: "default", // El tema para la interfaz
+    ),
+    
+    // Teclas personalizadas para controles
+    controls: (
+        play_pause: "p",
+        next: "n",
+        prev: "b",
+        stop: "s",
+    ),
+)
+
